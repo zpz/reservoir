@@ -1,0 +1,13 @@
+#! /bin/bash
+
+./test_reservoir --cap 123 --alpha 0.0
+echo
+
+./test_reservoir --cap 321 --alpha 0.5
+echo
+
+./test_reservoir --cap 578 --alpha 1.0
+echo
+
+./test_reservoir --cap 1024 --alpha 1.5
+echo
